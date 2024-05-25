@@ -27,6 +27,7 @@ $darkgreen:         #008080;
 $primary-color:     #21a7b9;
 $secondary-color:   #21a7b9;
 $third-color:       #3feb43;
+$fourth-color:      #23ba25;
 
 $alert-yellow:      #ff0;
 $alert-red:         #f00;
@@ -36,9 +37,9 @@ $alert-blue:        #004fcc;
 $background-color:  $white;
 $text-color:        $black;
 $link-color:        $black;
-$link-hover:        $third-color;
+$link-hover:        $secondary-color;
 
-$link-background: $third-color;
+$link-background: $secondary-color;
 $link-background-hover: $black;
 
 $edupsprint-grey: #e6e7e8;

@@ -1388,12 +1388,12 @@ FOOTER STYLES
 }
 .events{
         a{
-            background-color: $link-background-hover;
+            background-color: $link-background;
             color: $white;
         }
         a:hover{
             background-color: $link-background-hover;
-            color: $black;
+            color: $link-hover;
         }
 }
 .thumbs{
