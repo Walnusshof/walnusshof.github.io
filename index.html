@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<!-- hero -->
+
+<div class="row">
+    <section class="hero home col-xs-24">
+      <div class="branding">
+          <p class="black"></p>
+      </div>
+    </section>
+</div>
+<!-- intro -->
+<div class="row">
+    <section id="about" class="section first col-xs-24">
+        <div class="content-wrap">
+            <h1 class="section-headline">Wohngemeinschaft Walnusshof</h1>
+            <p>Hier steht ein kurzer Text über den Hof, um zu beschreiben, was Besuchende auf der Website erwartet. Wenn wir mehr sagen wollen, können wir eine Unterseite anlegen, auf die wir hier verweisen.</p>
+        </div>
+    </section>
+</div>
+
+<div class="row">
+    <section id="concert" class="section yellow col-xs-24">
+        <div class="content-wrap">
+            <h2 class="section-headline">Termine</h2>
+            <p><strong>Hier findet ihr Informationen zu unseren anstehenden Veranstaltungen und Aktionen.</strong></p>
+        </div>
+        <div class="row">
+            <p>
+            {% include partials/events.liquid %}
+            </p>
+        </div>
+    </section>
+</div>
+
+
+{% include partials/sections/apply.liquid %}
