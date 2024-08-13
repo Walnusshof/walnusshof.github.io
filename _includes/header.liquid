@@ -7,9 +7,9 @@
         <ul class="main-nav">
             {% assign base_dir = page.url | split:'/'  %}
             {% assign base_dir = base_dir  %}
-            <li {% if base_dir[1] == 'about' %} class="current" {% endif %}><a href="/#about">Entstehung</a></li>
-            <li {% if base_dir[1] == 'concert' %} class="current" {% endif %}><a href="/#concert">Die Idee</a></li>
-            <li {% if base_dir[1] == 'join' %} class="current" {% endif %}><a href="/#join">Unterstützen</a></li>
+            <li {% if base_dir[1] == 'about' %} class="current" {% endif %}><a href="/about#history">Entstehung</a></li>
+            <li {% if base_dir[1] == 'about' %} class="current" {% endif %}><a href="/about#idea">Die Idee</a></li>
+            <li {% if base_dir[1] == 'support' %} class="current" {% endif %}><a href="/support">Unterstützen</a></li>
             <li {% if base_dir[1] == 'join' %} class="current" {% endif %}><a href="/#join">Kontakt</a></li>
 
         </ul>
