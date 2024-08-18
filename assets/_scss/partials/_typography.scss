@@ -11,6 +11,12 @@ Do whatever you want to...GOSH!
 ******************************************************************/
 
 @font-face {
+      font-family: 'jost';
+      src: url($baseurl + '/assets/fonts/Jost/static/Jost-Light.ttf') format('truetype');
+
+}
+
+@font-face {
       font-family: 'fontello';
       src: url($baseurl + '/assets/fonts/fontello.eot?59799402');
       src: url($baseurl + '/assets/fonts/fontello.eot?59799402#iefix') format('embedded-opentype'),
@@ -93,6 +99,7 @@ https://github.com/devinhunt/typebase.css
 I've edited it a bit, but it's a nice starting point.
 */
 
+$font-jost:    'jost', sans-serif;
 $font-karla:    'Karla', sans-serif;
 $font-worksans:    'Work Sans', sans-serif;
 $font-mono:    'liberation_monoregular', sans-serif;

@@ -29,7 +29,7 @@ html, body{
 
 body {
   height: 100%;
-  font-family: $font-karla;
+  font-family: $font-jost;
   font-size: 100%;
   line-height: 1.5;
   color: $text-color;
@@ -391,7 +391,7 @@ HEADER STYLES
 
     margin: 0 auto;
     height: 100%;
-    //background-color: $primary-color;
+    background-color: $primary-color;
 
     .search.mobile{
       position: relative;
@@ -475,7 +475,7 @@ HEADER STYLES
       background-color: $primary-color;
       margin-top: -10px;
       font-size: 1.5rem;
-      font-family: $font-karla;
+      font-family: $font-jost;
       position: absolute;
       width: 100%;
       padding: 0;
@@ -778,6 +778,7 @@ PAGE & SECTIONS
     background-color: $secondary-color;
     color: $white;
   }
+
 
 }
 
@@ -1192,7 +1193,7 @@ FOOTER STYLES
     li{
 
       &.nav-footer-headline{
-        font-family: $font-karla;
+        font-family: $font-jost;
         font-weight: 700;
       }
 
@@ -1308,7 +1309,7 @@ FOOTER STYLES
       float: none;
     }
       a:hover{
-        color: $link-background-hover;
+        //color: $link-background-hover;
 
       }
   }

@@ -1,14 +1,12 @@
 <header class="header">
     <div class="header-inner">
-        <a class="signet branding-nav" href="/">
-            <img src="/assets/img/static/logo.jpg">
-        </a>
 
         <ul class="main-nav">
             {% assign base_dir = page.url | split:'/'  %}
             {% assign base_dir = base_dir  %}
-            <li {% if base_dir[1] == 'about' %} class="current" {% endif %}><a href="/about#history">Entstehung</a></li>
-            <li {% if base_dir[1] == 'about' %} class="current" {% endif %}><a href="/about#idea">Die Idee</a></li>
+            <li><a href="/">Home</a></li>
+            <li {% if base_dir[1] == 'history' %} class="current" {% endif %}><a href="/history">Entstehung</a></li>
+            <li {% if base_dir[1] == 'idea' %} class="current" {% endif %}><a href="/idea">Die Idee</a></li>
             <li {% if base_dir[1] == 'support' %} class="current" {% endif %}><a href="/support">Unterstützen</a></li>
             <li {% if base_dir[1] == 'join' %} class="current" {% endif %}><a href="/#join">Kontakt</a></li>
 
