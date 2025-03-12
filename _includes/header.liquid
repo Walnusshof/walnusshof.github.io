@@ -5,8 +5,6 @@
             {% assign base_dir = page.url | split:'/'  %}
             {% assign base_dir = base_dir  %}
             <li><a href="/">Home</a></li>
-            <li {% if base_dir[1] == 'history' %} class="current" {% endif %}><a href="/history">Entstehung</a></li>
-            <li {% if base_dir[1] == 'idea' %} class="current" {% endif %}><a href="/idea">Die Idee</a></li>
             <li {% if base_dir[1] == 'support' %} class="current" {% endif %}><a href="/support">Unterstützen</a></li>
             <li {% if base_dir[1] == 'join' %} class="current" {% endif %}><a href="/#join">Kontakt</a></li>
 
